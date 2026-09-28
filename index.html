@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARAMVEER SINGH | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#home" class="logo">PARAMVEER SINGH</a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <figure class="profile-figure">
+                    <img src="./images/head.jpg" 
+                         alt="Headshot of Paramveer Singh">
+                </figure>
+
+                <div class="hero-content">
+                    <p class="hero-greeting">Hi, I'm</p>
+                    <h1 class="hero-name">PARAMVEER <br> SINGH</h1>
+                    <p class="hero-role">Student at <br> Scaler School of Technology</p>
+                    <a href="#contact" class="btn-primary">
+                        Download Resume <img src="./images/disk.png" alt="download" width="15px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-text">
+                        Driven CS student with a solid foundation in software development, web design, and database systems. I specialize in crafting clean code in Python and Java, structured data architectures with MySQL, and intuitive web interfaces using HTML and CSS. I love turning ideas into functional software solutions and am always eager to take on new technical challenges.
+                </div>
+
+                <div class="skills-grid">
+                  <div class="skill-card">
+                      <img src="./images/text.png" alt="html" width="35px">
+                      <span>HTML</span>
+                  </div>
+                  <div class="skill-card">
+                      <img src="./images/css.png" alt="css" width="35px">
+                      <span>CSS</span>
+                  </div>
+                  <div class="skill-card">
+                      <img src="./images/python.png" alt="" width="35px">
+                      <span>Python</span>
+                  </div>
+                  <div class="skill-card">
+                      <img src="./images/java.png" alt="" width="35px">
+                      <span>Java</span>
+                  </div>
+                  <div class="skill-card">
+                      <img src="./images/database.png" alt="Mysql" width="35px">
+                      <span>MySQL</span>
+
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div>
+                        <div class="project-banner">
+                            <img src="./images/Voice.jpg" 
+                                 alt="Voice Assistant">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Voice Assistant</h3>
+                            <p class="project-desc">A Voice Assistant made with Python.</p>
+                            <p class="project-tech">Python</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><img src="./images/github.png" alt="github" width="15px"> GitHub</a>
+                        <a href="#projects"><img src="./images/up-right.png" alt="up-right" width="15px"> Live Demo</a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div>
+                        <div class="project-banner">
+                            <img src="./images/store.jpg" 
+                                 alt="Canteen stock management system">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Canteen Stock Management System</h3>
+                            <p class="project-desc">A modern Stock Managment System for Stores.</p>
+                            <p class="project-tech">Python, MySQL</p>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com" target="_blank"><img src="./images/github.png" alt="github" width="15px"> GitHub</a>
+                        <a href="#projects"><img src="./images/up-right.png" alt="up-right" width="15px"> Live Demo</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <form class="contact-form" action="#" method="POST">
+                <div class="contact-grid">
+                    <div class="input-group">
+                        <input type="text" id="contact-name" class="form-control" placeholder="Name" required>
+                        <input type="email" id="contact-email" class="form-control" placeholder="Email" required>
+                    </div>
+
+                    <div>
+                        <textarea id="contact-msg" class="form-control" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+
+                <div class="contact-bottom">
+                    <div class="social-links">
+                        <a href="mailto:paramveer.26bcs10530@sst.scaler.com" class="social-item email">
+                            <div class="social-icon-btn"><img src="./images/email.png" alt="mail" width="20px"></div>
+                            <span class="social-label">Email</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/paramveer-singh-520a70416" target="_blank" class="social-item linkedin">
+                            <div class="social-icon-btn"><img src="./images/linkedin.png" alt="linkedin" width="20px" ></div>
+                            <span class="social-label">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/paramveer-10530" target="_blank" class="social-item github">
+                            <div class="social-icon-btn"><img src="./images/github.png" alt="github" width="20px"></div>
+                            <span class="social-label">GitHub</span>
+                        </a>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 PARAMVEER SINGH</p>
+        </div>
+    </footer>
+
+</body>
+</html>
