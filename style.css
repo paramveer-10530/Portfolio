@@ -196,6 +196,70 @@
             font-size: 1.05rem;
             line-height: 1.7;
         }
+        .education-container {
+            margin-top: 30px;
+        }
+
+        .education-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 16px;
+        }
+
+        .education-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .education-card {
+            background-color: #ffffff;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .education-card:hover {
+            transform: translateY(-2px);
+            border-color: #df8338;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .education-degree {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #1e293b;
+        }
+
+        .education-school {
+            font-size: 0.88rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        .education-score {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #df8338;
+        }
+
+        .education-badge {
+            font-size: 0.75rem;
+            font-weight: 700;
+            background-color: #ffedd5;
+            color: #df8338;
+            padding: 2px 8px;
+            border-radius: 12px;
+        }
 
         .skills-grid {
             display: grid;
@@ -221,9 +285,6 @@
             border-color: #df8338;
         }
 
-        .skill-card i {
-            font-size: 2.2rem;
-        }
 
         .skill-card span {
             font-size: 0.8rem;
@@ -241,7 +302,7 @@
             gap: 24px;
             margin-top: 24px;
         }
-
+ 
         .project-card {
             background-color: #ffffff;
             border-radius: 12px;
